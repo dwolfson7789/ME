@@ -122,17 +122,16 @@
 }
 
 .brunchBox {
-		height: 190px;
-		width: 300px;
+		height: 110px;
+		width: 200px;
 		margin-left: 5%;
 		padding: 3px;
 
 }
 
 	.brunchBox img {
-		height: 190px;
-		width: 300px;
-
+		height: 110px;
+		width: 200px;
 
 }
 
@@ -142,6 +141,28 @@
 		box-shadow: 0 0 10px #ccc;
 
 }
+
+.blockBox {
+		height: 190px;
+		width: 150px;
+		margin-left: 20%;
+
+}
+
+	.blockBox img {
+		height: 190px;
+		width: 150px;
+
+}
+
+	.blockBox:hover {
+		-moz-box-shadow: 0 0 10px #ccc;
+		-webkit-box-shadow: 0 0 10px #ccc;
+		box-shadow: 0 0 10px #ccc;
+
+}
+
+
 
   .clearfix:after {
   	visibility: hidden;
