@@ -165,16 +165,16 @@
 
 }
 
-.musicBox {
-	height: 190px;
-	width: 150px;
-	margin-left: 5%;
+	.musicBox {
+		height: 190px;
+		width: 200px;
+		margin-left: 5%;
 
 }
 
-.musicBox img {
-	height: 190px;
-	width: 150px;
+	.musicBox img {
+		height: 190px;
+		width: 200px;
 
 }
 
