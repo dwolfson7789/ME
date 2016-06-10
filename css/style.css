@@ -1,9 +1,7 @@
 	@import url(https://fonts.googleapis.com/css?family=Poiret+One);
   @import url(https://fonts.googleapis.com/css?family=Megrim);
   @import url(https://fonts.googleapis.com/css?family=Pacifico);
-
-
-@import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
+	@import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
 
 	@import url(https://fonts.googleapis.com/css?family=Bangers);
 
@@ -22,6 +20,7 @@
     font-size: 2rem;
     color: black;
     letter-spacing: 3px;
+		padding: 5px;
 
 }
 
@@ -46,20 +45,16 @@
 		font-size: 1.5rem;
 		font-family: 'Bangers', cursive;
 		letter-spacing: 3px;
-		padding: 5px;
+		padding: 10px;
 }
 
-	p {
-		font-family: 'Marcellus SC', serif;
-}
 
   body {
-    font-family: 'Poiret One', cursive;
     text-align: center;
     line-height: 30px;
     letter-spacing: 2px;
-    margin: 0, auto;
     font-size: .9em;
+		font-family: 'Marcellus SC', serif;
 }
 
   hr {
@@ -129,9 +124,12 @@
 		box-shadow: 0 0 10px #ccc;
 }
 
-#apps p {
-	width: 40%;
-	display: inline-block;
+
+
+	#projects p {
+		width: 30%;
+		float: right;
+		margin-right: 35%;
 
 }
 
@@ -144,15 +142,17 @@
 
 
 	.brunchBox {
-		height: 110px;
-		width: 200px;
+		height: 150px;
+		width: 220px;
 		margin-left: 5%;
 		padding: 3px;
+
 }
 
 	.brunchBox img {
-		height: 110px;
-		width: 200px;
+		height: 150px;
+		width: 220px;
+
 }
 
 	.brunchBox:hover {
@@ -200,23 +200,23 @@
 		box-shadow: 0 0 90px #ccc;
 
 }
-.reviveBox {
-	height: 190px;
-	width: 220px;
-	margin-left: 5%;
+	.reviveBox {
+		height: 200px;
+		width: 260px;
+		margin-left: 5%;
 
 }
 
-.reviveBox img {
-	height: 190px;
-	width: 220px;
+	.reviveBox img {
+		height: 200px;
+		width: 260px;
 
 }
 
-.reviveBox:hover {
-	-moz-box-shadow: 0 0 90px #ccc;
-	-webkit-box-shadow: 0 0 90px #ccc;
-	box-shadow: 0 0 90px #ccc;
+	.reviveBox:hover {
+		-moz-box-shadow: 0 0 110px #ccc;
+		-webkit-box-shadow: 0 0 110px #ccc;
+		box-shadow: 0 0 110px #ccc;
 
 }
 
@@ -230,6 +230,7 @@
 
 }
 
+/*mobile/tablet*/
 @media only screen and (max-width: 768px) {
 
   #wrapper {
@@ -276,9 +277,6 @@
     font-size: .5em;
 }
 
-  nav {
-    display: block;
-}
 
   aside img {
     width: auto;
