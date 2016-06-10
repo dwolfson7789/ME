@@ -3,6 +3,11 @@
   @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
 
+@import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
+
+	@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+
 	header {
   	position: fixed;
     top: 0;
@@ -13,26 +18,39 @@
 }
 
   h1 {
-    font-family: 'Megrim', cursive;
-    font-size: 1.3em;
-    color: white;
-    padding: 5px;
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    color: black;
     letter-spacing: 3px;
-		float: left;
+
 }
 
   h2 {
-    font-size: 1.3em;
-    font-family: 'Megrim', cursive;
-    padding: 5px;
+		color: white;
+    font-size: 1em;
+    display: inline;
+		font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
 }
 
   h3 {
-    color: white;
-    font-size: 1em;
+    color: black;
+    font-size: 1.5rem;
     display: inline;
-    font-family: 'Megrim', cursive;
-    letter-spacing: 3px;
+		font-family: 'Bangers', cursive;    letter-spacing: 3px;
+		padding: 5px;
+}
+
+	h4 {
+		color: black;
+		font-size: 1.5rem;
+		font-family: 'Bangers', cursive;
+		letter-spacing: 3px;
+		padding: 5px;
+}
+
+	p {
+		font-family: 'Marcellus SC', serif;
 }
 
   body {
@@ -50,7 +68,7 @@
 }
 
   a {
-    font-family: 'Megrim', cursive;
+		font-family: 'Bangers', cursive;
     text-decoration: none;
     font-size: 1em;
     font-style: bold;
@@ -66,9 +84,8 @@
 
   nav a:hover {
     background-color: black;
+
 }
-
-
 
 	aside p {
     font-size: 1.1em;
@@ -117,7 +134,6 @@
 	display: inline-block;
 
 }
-
 
 	.hero {
 		width: 100%;
@@ -178,7 +194,26 @@
 
 }
 
-.musicBox:hover {
+	.musicBox:hover {
+		-moz-box-shadow: 0 0 90px #ccc;
+		-webkit-box-shadow: 0 0 90px #ccc;
+		box-shadow: 0 0 90px #ccc;
+
+}
+.reviveBox {
+	height: 190px;
+	width: 200px;
+	margin-left: 5%;
+
+}
+
+.reviveBox img {
+	height: 190px;
+	width: 200px;
+
+}
+
+.reviveBox:hover {
 	-moz-box-shadow: 0 0 90px #ccc;
 	-webkit-box-shadow: 0 0 90px #ccc;
 	box-shadow: 0 0 90px #ccc;
@@ -228,8 +263,6 @@
   footer {
     font-size: .8em;
     padding: 5px;
-}
-
 }
 
 @media only screen and (max-width: 480px){
