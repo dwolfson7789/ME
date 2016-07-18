@@ -148,9 +148,10 @@ input {
 }
 
 	#projects p {
-		width: 35%;
-		float: right;
-		margin-right: 35%;
+		width: 70%;
+		text-align: center;
+		margin-left: 15%;
+
 
 }
 
@@ -171,15 +172,15 @@ input {
 
 /*PROJECTS*/
 	.brunchBox {
-		height: 120px;
-		width: 190px;
-		margin-left: 5%;
+		height: 150px;
+		width: 210px;
+		margin-left: 40%;
 		padding: 3px;
 }
 
 	.brunchBox img {
-		height: 120px;
-		width: 190px;
+		height: 150px;
+		width: 210px;
 }
 
 	.brunchBox:hover {
@@ -191,7 +192,7 @@ input {
 	.blockBox {
 		height: 160px;
 		width: 120px;
-		margin-left: 5%;
+		margin-left: 44%;
 
 }
 
@@ -210,7 +211,7 @@ input {
 	.musicBox {
 		height: 140px;
 		width: 180px;
-		margin-left: 5%;
+		margin-left: 40%;
 
 }
 
@@ -228,7 +229,7 @@ input {
 	.reviveBox {
 		height: 145px;
 		width: 210px;
-		margin-left: 5%;
+		margin-left: 40%;
 
 }
 
