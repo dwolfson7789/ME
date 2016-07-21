@@ -42,7 +42,7 @@
 
 	h4 {
 		color: black;
-		font-size: 1.5rem;
+		font-size: 1.8rem;
 		font-family: 'Bangers', cursive;
 		letter-spacing: 3px;
 		padding: 10px;
@@ -148,12 +148,15 @@ input {
 }
 
 	#projects p {
-		width: 70%;
+		width: 80%;
 		text-align: center;
 		margin-left: 15%;
 
-
 }
+
+	#projects img {
+		float: left;
+	}
 
 	#comment{
 		text-align: left;
@@ -163,11 +166,65 @@ input {
 		height: 10px;
 }
 
+
 	.hero {
 		width: 100%;
 		height: 600px;
 		background: url("../images/image.jpg") no-repeat center center scroll;
 		background-size: cover;
+}
+
+ 	.icon img{
+		height: 8rem;
+		width: 8rem;
+}
+
+/*new*/
+
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+	display: inline;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+	border-radius: 50%;
+}
+
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 160px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 160px;
+  opacity: 0;
+	border-radius: 50%;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 /*PROJECTS*/
@@ -181,6 +238,7 @@ input {
 	.brunchBox img {
 		height: 160px;
 		width: 220px;
+
 }
 
 	.brunchBox:hover {
@@ -292,16 +350,18 @@ input {
     padding: 5px;
 }
 
-/*#projects div {
-	font-size: .8em;
-	height: 100px;
-	width: 100px;
-}
+/*#projects a {
+	height: 120px;
+	width: 150px;
+	text-align: center;
+}*/
 
 #projects img {
-	height: 100px;
-	width: 100px;
-}*/
+	height: 120px;
+	width: 150px;
+	text-align: center;
+}
+
 
 
 @media only screen and (max-width: 480px){
