@@ -163,12 +163,12 @@
 		background-size: cover;
 }
 
-	 .icon img{
+	 .icon img {
 		height: 6rem;
 		width: 6rem;
 	}
 
-	.content{
+	.content {
 		padding: 5px;
 		display: inline-block;
 	}
@@ -182,6 +182,7 @@
 		padding: 5px;
 		display: inline-block;
 	}
+
 	.flex-container {
 	  padding: 0;
 	  margin: 0;
@@ -196,9 +197,10 @@
 	}
 
 	.flex-container img{
-		width: 150px;
-		height: 130px;
-		border-radius: 5%;
+		width: 120px;
+		height: 120px;
+		border-radius: 10%;
+    border: 2px solid black;
 	}
 	.flex-container img:hover {
 		-moz-box-shadow: 0 0 20px #ccc;
@@ -207,21 +209,17 @@
 	}
 
 	.flex-item {
-	  padding: px;
-	  width: 200px;
+	  padding: 2px;
+	  width: 150px;
 	  height: 150px;
-	  margin-top: 10px;
-
+	  margin-top: 5px;
 	  line-height: 150px;
-	  color: white;
-	  font-weight: bold;
-	  font-size: 3em;
 	  text-align: center;
 	}
 
-	.skills{
+	.skills {
 		height: 23rem;
-		width: 21rem;
+		width: 20rem;
 	}
 
 
