@@ -147,7 +147,6 @@
 		box-shadow: 0 0 10px #ccc;
 }
 
-
 	#comment{
 		text-align: left;
 		padding:  0.4em;
@@ -159,7 +158,7 @@
 	.hero {
 		width: 100%;
 		height: 600px;
-		background: url("../images/image.jpg") no-repeat center center scroll;
+		background: url("../images/cover.jpg") no-repeat center center scroll;
 		background-size: cover;
 }
 
@@ -197,8 +196,8 @@
 	}
 
 	.flex-container img{
-		width: 120px;
-		height: 120px;
+		width: 6rem;
+		height: 5rem;
 		border-radius: 10%;
     border: 2px solid black;
 	}
