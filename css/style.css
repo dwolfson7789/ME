@@ -128,7 +128,7 @@
 }
 
   #about {
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     width: 80%;
     line-height: 30px;
@@ -196,15 +196,17 @@
 	}
 
 	.flex-container img{
-		width: 6rem;
-		height: 5rem;
+		width: 7rem;
+		height: 6rem;
 		border-radius: 10%;
     border: 2px solid black;
 	}
+
 	.flex-container img:hover {
 		-moz-box-shadow: 0 0 20px #ccc;
 		-webkit-box-shadow: 0 0 20px #ccc;
 		box-shadow: 0 0 90px #ccc;
+
 	}
 
 	.flex-item {
@@ -214,11 +216,13 @@
 	  margin-top: 5px;
 	  line-height: 150px;
 	  text-align: center;
+
 	}
 
 	.skills {
 		height: 23rem;
 		width: 20rem;
+
 	}
 
 
