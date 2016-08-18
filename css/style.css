@@ -111,6 +111,51 @@
 		color: black;
 		text-decoration: none;
 }
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+	display: inline;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 6rem;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 6rem;
+	border-radius: 50%;
+}
+
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+
+}
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 6rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 6rem;
+  opacity: 0;
+	border-radius: 50%;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
 
 	#send {
 		color: white;
@@ -130,9 +175,6 @@
   #about {
     padding: 5px;
     margin: auto;
-    width: 60%;
-    line-height: 30px;
-		text-align: auto;
     letter-spacing: 3px;
 }
 
@@ -196,8 +238,8 @@
 	}
 
 	.flex-container img{
-		width: 190px;
-		height: 180px;
+		width: 210px;
+		height: 200px;
 		border-radius: 10%;
     border: 1px solid white;
 	}
@@ -226,53 +268,7 @@
 	}
 
 
-/*new*/
 
-ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-	display: inline;
-}
-
-ul.img-list li {
-  display: inline-block;
-  height: 6rem;
-  margin: 0 1em 1em 0;
-  position: relative;
-  width: 6rem;
-	border-radius: 50%;
-}
-
-
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-ul.img-list li:hover span.text-content {
-  opacity: 1;
-
-}
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 6rem;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 6rem;
-  opacity: 0;
-	border-radius: 50%;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
 
 /*PROJECTS*/
 
