@@ -244,24 +244,25 @@ span.text-content {
 	.flex-container img{
 		width: 220px;
 		height: 200px;
+    border:1px solid black;
 		border-radius: 2%;
     border: 1px solid white;
-    box-shadow: 5px 10px 5px #888888;
+
 	}
 
 	.flex-container img:hover {
 		-moz-box-shadow: 0 0 20px #ccc;
 		-webkit-box-shadow: 0 0 20px #ccc;
 		box-shadow: 0 0 90px #ccc;
+      box-shadow: 5px 10px 5px #888888;
 
 	}
 
 	.flex-item {
-	  padding: 20px;
+	  /*padding: 20px;*/
 	  width: 250px;
 	  height: 150px;
 	  margin-top: 5px;
-	  line-height: 140px;
 	  text-align: center;
 
 	}
@@ -330,11 +331,15 @@ span.text-content {
 	text-align: center;
 }*/
 
-#projects img {
-	height: 120px;
-	width: 150px;
-	text-align: center;
-}
+
+
+	.flex-container img{
+height:120px;
+width:120px;
+padding:0px;
+margin:auto;
+display:inline-block;
+  }
 
 
 
