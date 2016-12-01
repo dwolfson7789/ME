@@ -1,7 +1,7 @@
   @import url(https://fonts.googleapis.com/css?family=Pacifico);
 	@import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
 	@import url(https://fonts.googleapis.com/css?family=Bangers);
-	@import "compass/css3";
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
 	header {
   	position: fixed;
@@ -14,12 +14,13 @@
     opacity: .7;
 }
 
+
+
   h1 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Palanquin Dark', sans-serif;
     font-size: 2rem;
-    color: black;
     letter-spacing: 3px;
-		padding: 5px;
+		padding: 15px;
 
 }
 
@@ -27,7 +28,6 @@
 		color: white;
     font-size: 1em;
     display: inline;
-		font-family: 'Bangers', cursive;
     letter-spacing: 3px;
 }
 
@@ -35,7 +35,8 @@
     color: black;
     font-size: 1.5rem;
     display: inline;
-		font-family: 'Bangers', cursive;    letter-spacing: 3px;
+		font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
 		padding: 5px;
 }
 
@@ -56,7 +57,6 @@
 
 
   body {
-    text-align: center;
     line-height: 30px;
     letter-spacing: 2px;
     font-size: .8em;
@@ -90,14 +90,14 @@
 
 }
 
-	aside p {
+	/*aside p {
     font-size: 1em;
     padding: 5px;
     letter-spacing: 3px;
 		width: 75%;
 		margin-left: 15%;
-    font-family: 'Pacifico', cursive;
-}
+   font-family: 'Pacifico', cursive;
+}*/
 
   aside img {
     width: auto;
@@ -121,15 +121,18 @@ ul.img-list {
   padding: 0;
   text-align: center;
 	display: inline;
+  padding:10px;
+
 }
 
 ul.img-list li {
   display: inline-block;
-  height: 6rem;
+  height: 5rem;
   margin: 0 1em 1em 0;
   position: relative;
-  width: 6rem;
+  width: 5rem;
 	border-radius: 50%;
+
 }
 
 
@@ -148,11 +151,11 @@ span.text-content {
   color: white;
   cursor: pointer;
   display: table;
-  height: 6rem;
+  height: 5rem;
   left: 0;
   position: absolute;
   top: 0;
-  width: 6rem;
+  width: 5rem;
   opacity: 0;
 	border-radius: 50%;
   -webkit-transition: opacity 500ms;
@@ -177,13 +180,13 @@ span.text-content {
 }
 
   #about {
-    padding: 5px;
-    margin: auto;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 3px;
 }
 
 	#social img {
 		padding: 10px;
+    margin-left:10%;
 
 }
 
@@ -209,24 +212,10 @@ span.text-content {
 }
 
 	 .icon img {
-		height: 6rem;
-		width: 6rem;
+		height: 5rem;
+		width: 5rem;
 	}
 
-	.content {
-		padding: 5px;
-		display: inline-block;
-	}
-
-	.design {
-		padding: 5px;
-		display: inline-block;
-	}
-
-	.code {
-		padding: 5px;
-		display: inline-block;
-	}
 
 	.flex-container {
 	  padding: 0;
@@ -242,7 +231,7 @@ span.text-content {
 	}
 
 	.flex-container img{
-		width: 220px;
+		width: 240px;
 		height: 200px;
     border:1px solid black;
 		border-radius: 2%;
@@ -254,7 +243,7 @@ span.text-content {
 		-moz-box-shadow: 0 0 20px #ccc;
 		-webkit-box-shadow: 0 0 20px #ccc;
 		box-shadow: 0 0 90px #ccc;
-      box-shadow: 5px 10px 5px #888888;
+    box-shadow: 5px 10px 5px #888888;
 
 	}
 
@@ -268,10 +257,30 @@ span.text-content {
 	}
 
 	.skills {
-		height: 23rem;
-		width: 20rem;
+		height: auto;
+		width: 65%;
+    margin-left:10%;
 
 	}
+
+  .content {
+		padding: 5px;
+		display: inline-block;
+	}
+
+	.design {
+		padding: 5px;
+		display: inline-block;
+    margin-left: 5%;
+
+	}
+
+	.code {
+		padding: 5px;
+		display: inline-block;
+    margin-left: 5%;
+	}
+
 
 
 
@@ -323,6 +332,7 @@ span.text-content {
   footer {
     font-size: .8em;
     padding: 5px;
+    margin-left: 25%;
 }
 
 /*#projects a {
@@ -334,11 +344,11 @@ span.text-content {
 
 
 	.flex-container img{
-height:120px;
-width:120px;
-padding:0px;
-margin:auto;
-display:inline-block;
+  height:120px;
+  width:120px;
+  padding:0px;
+  margin:auto;
+  display:inline-block;
   }
 
 
