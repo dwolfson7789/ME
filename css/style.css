@@ -283,27 +283,28 @@ span.text-content {
 
 	.skills {
 		height: auto;
-		width: 70%;
-    margin-left:10%;
+    margin-left:15%;
+    width:60%;
 
 	}
 
   .content {
 		padding: 5px;
 		display: inline-block;
+    margin-left:10%;
 	}
 
 	.design {
-		padding: 5px;
+		padding: 3px;
 		display: inline-block;
-    margin-left: 5%;
+    margin-left: 15%;
 
 	}
 
 	.code {
-		padding: 5px;
+		padding: 3px;
 		display: inline-block;
-    margin-left: 5%;
+    margin-left: 20%;
 	}
 
 
