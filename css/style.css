@@ -209,6 +209,10 @@ span.text-content {
 		height: 10px;
 }
 
+  #mySoft img{
+  border:1px solid grey;
+}
+
 	.hero {
 		width: 100%;
 		height: 700px;
@@ -280,7 +284,7 @@ span.text-content {
 
 	.flex-container img{
 		width: 240px;
-		height: 200px;
+		height: 180px;
     border:1px solid black;
 		border-radius: 2%;
     border: 1px solid white;
@@ -330,9 +334,7 @@ span.text-content {
     margin-left: 20%;
 	}
 
-.soft img{
-  border:1px solid grey;
-}
+
   .free a{
     border:5px solid;
     border-color:#2ecc71;
