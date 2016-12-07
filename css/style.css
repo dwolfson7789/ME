@@ -346,6 +346,38 @@ span.text-content {
   }
 
 
+  .new p {
+    height: 60px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .new b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 30px;
+  }
+  span1 {
+    font-family: 'Palanquin Dark', sans-serif;
+     display: inline-block;
+    color: #2ecc71;
+    font-size:20px;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+    -webkit-animation: move 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 1s;
+  }
+
+  @keyframes move {
+  0%  { top: 1px; }
+  20% { top: -30px; }
+  40% { top: -60px; }
+  60% { top: -90px; }
+  80% { top: -120px; }
+  }
 
 
 /*PROJECTS*/
