@@ -1,5 +1,4 @@
   @import url(https://fonts.googleapis.com/css?family=Pacifico);
-	@import url(https://fonts.googleapis.com/css?family=Marcellus+SC);
 	@import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
@@ -52,20 +51,12 @@
 		letter-spacing: 3px;
 		padding: 10px;
 }
-	h5 {
-		color: black;
-		font-size: 1.5rem;
-		font-family: 'Pacifico', cursive;
-		letter-spacing: 3px;
-		padding: 10px;
-	}
 
 
   body {
     line-height: 30px;
     letter-spacing: 2px;
     font-size: .8em;
-		font-family: 'Marcellus SC', serif;
 }
 
   hr {
@@ -113,6 +104,10 @@
 	input {
 		font-family: 'Bangers', cursive;
 }
+  p{
+    font-family: 'Raleway', sans-serif;
+
+  }
 
   footer {
 		font-family: 'Bangers', cursive;
@@ -120,7 +115,7 @@
 		color: black;
 		text-decoration: none;
 }
-ul.img-list {
+ ul.img-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -232,8 +227,7 @@ span.text-content {
    padding:5px;
    cursor: pointer;
    background-color: #2c3e50;
-   color:#ecf0f1
-
+   color:#ecf0f1;
  }
 
   .mainButt:hover{
@@ -353,6 +347,7 @@ span.text-content {
 
 
 
+
 /*PROJECTS*/
 
 
@@ -393,15 +388,37 @@ span.text-content {
 }
 
   h1, h2, h3, h4 {
-    text-align: center;
-    font-size: 1.1em;
+    font-size: .9em;
 }
+ /*.icon img{
+   height:2rem;
+   width:2rem;
+   margin:0;
+   padding: 0;
+   display: inline;
+   float: left;
+ }*/
+
+
 
   footer {
     font-size: .8em;
     padding: 5px;
-    margin-left: 25%;
+
 }
+  p {
+    font-size:16px;
+  }
+
+  #music{
+    padding-top:25%;
+  }
+  .comp img {
+  width:20%;
+  }
+
+
+
 
 /*#projects a {
 	height: 120px;
@@ -411,13 +428,13 @@ span.text-content {
 
 
 
-	.flex-container img{
-  height:120px;
-  width:120px;
-  padding:0px;
-  margin:auto;
-  display:inline-block;
-  }
+  	.flex-container img{
+    height:120px;
+    width:120px;
+    padding:0px;
+    margin:auto;
+    display:inline-block;
+    }
 
 
 
