@@ -359,7 +359,7 @@ span.text-content {
   }
   span1 {
     font-family: 'Palanquin Dark', sans-serif;
-     display: inline-block;
+    display: inline-block;
     color: #2ecc71;
     font-size:20px;
     position: relative;
@@ -372,11 +372,11 @@ span.text-content {
   }
 
   @keyframes move {
-  0%  { top: 1px; }
-  20% { top: -30px; }
-  40% { top: -60px; }
-  60% { top: -90px; }
-  80% { top: -120px; }
+    0%  { top: 1px; }
+    20% { top: -30px; }
+    40% { top: -60px; }
+    60% { top: -90px; }
+    80% { top: -120px; }
   }
 
 
@@ -402,25 +402,20 @@ span.text-content {
 }
 
   body {
-    font-size: .85em;
     letter-spacing: 1px;
 }
 
-  aside img {
-    width: auto;
-    height: 10em;
-}
 
   nav a {
     display: block;
     text-align: center;
     margin: 0;
-    font-size: .6em;
+    font-size: .8em;
     letter-spacing: 2px;
 }
 
   h1, h2, h3, h4 {
-    font-size: .9em;
+    font-size: 1em;
 }
  /*.icon img{
    height:2rem;
@@ -431,23 +426,47 @@ span.text-content {
    float: left;
  }*/
 
+ p {
+  font-size: 13px;
+  padding: 4px;
+ }
 
 
   footer {
-    font-size: .8em;
-    padding: 5px;
+  font-size: .8em;
+  padding: 5px;
 
 }
-  p {
-    font-size:16px;
+
+  .comp img {
+  width:20%;
   }
+
+
+  /*.comp p {
+   font-size: 13px;
+  }*/
+
+
+  .free a {
+    font-size: .8em;
+    margin: 0%;
+  }
+
+  #about img {
+    height:100px;
+    width:20px;
+  }
+  /*p {
+    font-size:16px;
+  }*/
 
   #music{
     padding-top:25%;
   }
-  .comp img {
-  width:20%;
-  }
+
+
+
 
 
 
