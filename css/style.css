@@ -29,14 +29,9 @@
 
 }
 
-  h2 {
-		color: white;
-    font-size: 1em;
-    display: inline;
-    letter-spacing: 3px;
-}
 
-  h3 {
+
+  /*h3 {
     color: black;
     font-size: 1.5rem;
     display: inline;
@@ -50,7 +45,7 @@
 		font-family: 'Bangers', cursive;
 		letter-spacing: 3px;
 		padding: 10px;
-}
+}*/
 
 
   body {
@@ -312,13 +307,13 @@ span.text-content {
   .content {
 		padding: 5px;
 		display: inline-block;
-    margin-left:10%;
+    margin-left:8%;
 	}
 
 	.design {
 		padding: 3px;
 		display: inline-block;
-    margin-left: 15%;
+    margin-left: 17%;
 
 	}
 
@@ -327,6 +322,15 @@ span.text-content {
 		display: inline-block;
     margin-left: 20%;
 	}
+
+  .icon h2 {
+    color: #2c3e50;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'Palanquin Dark', sans-serif;
+
+}
 
 
   .free a{
@@ -463,6 +467,10 @@ span.text-content {
 
   #music{
     padding-top:25%;
+  }
+
+  .icon img {
+    float: left;
   }
 
 
