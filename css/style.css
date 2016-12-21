@@ -182,6 +182,8 @@ span.text-content {
 	#social img {
 		padding: 10px;
     margin-left:5%;
+    height: 1%;
+    width: 4%;
 
 }
 
@@ -258,6 +260,8 @@ span.text-content {
 	}
 
 
+
+
 	.flex-container {
 	  padding: 0;
 	  margin: 0;
@@ -324,9 +328,9 @@ span.text-content {
 	}
 
   .icon h2 {
-    color: #2c3e50;
+    color: #ecf0f1;
     font-size: 15px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     text-align: center;
     font-family: 'Palanquin Dark', sans-serif;
 
