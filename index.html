@@ -4,6 +4,8 @@
   <title>Drew Alexander Wolfson </title>
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
@@ -18,6 +20,7 @@
         </nav>
       </br>
   </header>
+
 
 
 
@@ -204,20 +207,22 @@
   <!-- <img src="images/skills.png" class="skills" alt="" style=""/> -->
 
 <!-- CONTACT FORM -->
-<br>
+
 <footer id ="contact" style="text-align:center;">
-   <h1 style="margin-right:80%;">CONTANCT</h1>
-    <br>
-    <form action="MAILTO:drewwolfson1@gmail.com" method="post" enctype="text/plain" style="margin-left:5%;">
-      Name:<br>
-      <input type="text" name="name" value=""><br>
-      E-mail:<br>
-      <input type="text" name="mail" value=""><br>
-      Comment:<br>
-      <input id="comment" type="text" name="comment" value="" size="150"><br>
-      <input id ="send" type="submit" value="Send">
-      <input id="send" type="reset" value="Reset">
-    </form>
+  <br>
+  <h1>Elegant Contact Form</h1>
+  <form class="cf" class="clearfix" action="MAILTO:drewwolfson1@gmail.com" method="post">
+    <div class="half left cf">
+      <input type="text" id="input-name" placeholder="Name">
+      <input type="email" id="input-email" placeholder="Email address">
+      <input type="text" id="input-subject" placeholder="Subject">
+    </div>
+    <div class="half right cf">
+      <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+    </div>
+    <input type="submit" value="Submit" id="input-submit">
+  </form>
+
 </br>
 <!-- END -->
 
