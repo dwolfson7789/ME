@@ -73,8 +73,6 @@
     padding: 5px 20px;
     border-right: 1px solid #fff;
     letter-spacing: 2px;
-    font-family: 'Palanquin Dark', sans-serif;
-
 }
 
   nav a:hover {
@@ -112,13 +110,13 @@
 		color: black;
 		text-decoration: none;
 }
- ul.img-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-	display: inline;
-  padding:10px;
+   ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  	display: inline;
+    padding:10px;
 
 }
 
@@ -338,7 +336,6 @@ span.text-content {
 
 }
 
-
   .free a{
     border:5px solid;
     border-color:#2ecc71;
@@ -455,7 +452,15 @@ span.text-content {
   width:20%;
   }
 
+  .cover button{
+    height:30px;
+    width: 100px;
+  }
 
+  .mySoft {
+    height:60px;
+    width:100px;
+  }
   /*.comp p {
    font-size: 13px;
   }*/
