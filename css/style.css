@@ -442,7 +442,7 @@ span.text-content {
  }*/
 
  p {
-  font-size: 11px;
+  font-size: 10px;
   padding: 2px;
  }
 
@@ -461,10 +461,7 @@ span.text-content {
     width: 100px;
   }
 
-  .mySoft {
-    height:60px;
-    width:100px;
-  }
+
   /*.comp p {
    font-size: 13px;
   }*/
@@ -489,7 +486,7 @@ span.text-content {
 
 
 
-  	#social img {
+  #social img {
   		padding: 10px;
       margin-left:5%;
       height: 30px;
@@ -501,12 +498,12 @@ span.text-content {
 }
 
 
-  	.flex-container img{
-    height:120px;
-    width:120px;
-    padding:0px;
-    margin:auto;
-    display:inline-block;
+	.flex-container img{
+  height:120px;
+  width:120px;
+  padding:0px;
+  margin:auto;
+  display:inline-block;
   }
 
 
@@ -535,7 +532,7 @@ span.text-content {
     letter-spacing: 2px;
 }
 
-h1{
+  h1 {
   font-size:13px;
 }
 
@@ -544,6 +541,10 @@ h1{
     text-align: center;
     font-size: 12px;
 }
+
+  p{
+    font-size: 10px;
+  }
 
   footer {
     padding: 3px;
