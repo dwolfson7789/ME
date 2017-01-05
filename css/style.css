@@ -424,7 +424,11 @@ span.text-content {
     letter-spacing: 2px;
 }
 
-  h1, h2, h3, h4 {
+  h1{
+    font-size:16px;
+  }
+
+   h2, h3, h4 {
     font-size: 1em;
 }
  /*.icon img{
@@ -437,13 +441,13 @@ span.text-content {
  }*/
 
  p {
-  font-size: 13px;
-  padding: 4px;
+  font-size: 11px;
+  padding: 2px;
  }
 
 
   footer {
-  font-size: .8em;
+
   padding: 5px;
 
 }
@@ -531,13 +535,17 @@ span.text-content {
     letter-spacing: 2px;
 }
 
-  h1, h2, h3, h4 {
+h1{
+  font-size:16px;
+}
+
+
+   h2, h3, h4 {
     text-align: center;
-    font-size: 1em;
+    font-size: 12px;
 }
 
   footer {
-    font-size: .7em;
     padding: 3px;
 }
 
