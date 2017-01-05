@@ -426,7 +426,7 @@ span.text-content {
 }
 
   h1{
-    font-size:16px;
+    font-size:13px;
   }
 
    h2, h3, h4 {
@@ -449,7 +449,6 @@ span.text-content {
 
   footer {
 
-  padding: 5px;
 
 }
 
@@ -489,6 +488,7 @@ span.text-content {
   }
 
 
+
   	#social img {
   		padding: 10px;
       margin-left:5%;
@@ -499,17 +499,6 @@ span.text-content {
   }
 
 }
-
-
-
-
-
-/*#projects a {
-	height: 120px;
-	width: 150px;
-	text-align: center;
-}*/
-
 
 
   	.flex-container img{
@@ -547,7 +536,7 @@ span.text-content {
 }
 
 h1{
-  font-size:16px;
+  font-size:13px;
 }
 
 
