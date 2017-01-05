@@ -183,7 +183,8 @@ span.text-content {
 		padding: 10px;
     margin-left:5%;
     height: 1%;
-    width: 4%;
+    width: 9%;
+
 
 }
 
@@ -483,11 +484,21 @@ span.text-content {
     font-size:16px;
   }*/
 
-  #music{
+  #music {
     padding-top:25%;
   }
 
 
+  	#social img {
+  		padding: 10px;
+      margin-left:5%;
+      height: 30px;
+      width: 30px;
+
+
+  }
+
+}
 
 
 
@@ -507,7 +518,7 @@ span.text-content {
     padding:0px;
     margin:auto;
     display:inline-block;
-    }
+  }
 
 
 
@@ -548,5 +559,14 @@ h1{
   footer {
     padding: 3px;
 }
+
+	#social img {
+		padding: 10px;
+    margin-left:5%;
+    height: 40px;
+    width: 40px;
+
+}
+
 
 }
