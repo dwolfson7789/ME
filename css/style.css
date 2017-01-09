@@ -480,8 +480,8 @@ span.text-content {
     font-size:16px;
   }*/
 
-  #music {
-    padding-top:25%;
+  #mySoft p {
+    display:none;
   }
 
 
@@ -548,8 +548,10 @@ span.text-content {
     padding: 3px;
 }
 
-#block {
-  padding-top:25%;
+
+
+#mySoft p {
+  display:none;
 }
 
 
