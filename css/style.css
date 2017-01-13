@@ -159,6 +159,18 @@ span.text-content {
   transition: opacity 500ms;
 }
 
+  #coverHead {
+    color:black;
+    z-index:-1;
+    padding-top:1%;
+    font-family: 'Pacifico', cursive;
+    margin-left:8%;
+    font-size:28px;
+    margin-top:2%;
+    color:#413839;
+    line-height:40px;
+  }
+
 	#send {
 		color: white;
 		background-color: black;
@@ -184,7 +196,6 @@ span.text-content {
     margin-left:5%;
     height: 1%;
     width: 9%;
-
 
 }
 
