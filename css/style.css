@@ -2,7 +2,7 @@
 	@import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:500|Raleway');
 
- *{
+ * {
    font-family: 'Raleway', sans-serif;
 
 
@@ -99,10 +99,10 @@
 	input {
 		font-family: 'Bangers', cursive;
 }
-  p{
+  p {
     font-family: 'Raleway', sans-serif;
 
-  }
+}
 
   footer {
 		font-family: 'Bangers', cursive;
@@ -135,12 +135,15 @@ span.text-content span {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
+
 }
 
 ul.img-list li:hover span.text-content {
   opacity: 1;
 
 }
+
+
 span.text-content {
   background: rgba(0,0,0,0.5);
   color: white;
@@ -169,7 +172,7 @@ span.text-content {
     margin-top:2%;
     color:#413839;
     line-height:40px;
-  }
+}
 
 	#send {
 		color: white;
@@ -223,6 +226,7 @@ span.text-content {
 		background: url("../images/cover.jpg") no-repeat center center scroll;
 		background-size: cover;
 }
+
  .mainButt {
    z-index:-1;
    margin-top:15%;
@@ -242,7 +246,7 @@ span.text-content {
   .mainButt:hover{
     background-color:#e74c3c;
     color:#ecf0f1
-  }
+}
 
   .mainButt2 {
     z-index:-1;
@@ -258,18 +262,17 @@ span.text-content {
     cursor: pointer;
     background-color: #2ecc71;
     color:#ecf0f1
-
-  }
+}
 
    .mainButt2:hover{
      background-color:#e74c3c;
      color:#ecf0f1
-   }
+  }
 
 	 .icon img {
 		height: 5rem;
 		width: 5rem;
-	}
+}
 
 
 	.flex-container {
