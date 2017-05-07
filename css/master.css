@@ -1,0 +1,62 @@
+.drews-right-project-one {
+  float:right;
+  margin-bottom: 20%;
+
+}
+
+.drews-right-project-one a {
+  float:right;
+  margin-right:3%;
+
+  border:2px solid black;
+
+
+}
+.drews-right-project-one p {
+
+  margin-bottom: 14%;
+
+}
+
+.drews-right-project-one a {
+  margin-top:-2%;
+  margin-bottom: 14%;
+
+}
+/*end*/
+
+.drews-right-project-two {
+  /*float: right !important;*/
+
+}
+
+/*.drews-right-project-two h2{
+float: right;
+
+}
+*/
+
+.drews-right-project-two img {
+  margin-top:-23%;
+  margin-bottom: 1%;
+  width: 20%;
+  float: left;
+
+
+}
+
+
+.drews-right-project-two a {
+
+  border:2px solid black;
+
+
+}
+.drews-right-project-two p {
+  margin-top:-2%;
+  margin-bottom: 144%;
+  float:right;
+
+
+
+}
