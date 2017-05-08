@@ -311,6 +311,7 @@ span.text-content {
 
 	}
 
+
 	.skills {
 		height: auto;
     margin-left:15%;
@@ -323,6 +324,14 @@ span.text-content {
 		display: inline-block;
     margin-left:8%;
 	}
+
+  .comp-p {
+    float:right;
+    width:70%;
+    margin-top:-10%;
+    font-size:1em;
+    text-align:center
+  }
 
 	.design {
 		padding: 3px;
@@ -431,12 +440,12 @@ span.text-content {
     display: block;
     text-align: center;
     margin: 0;
-    font-size: .8em;
+    font-size: 1em;
     letter-spacing: 2px;
 }
 
   h1{
-    font-size:13px;
+    font-size:1.2em;
   }
 
    h2, h3, h4 {
@@ -558,6 +567,20 @@ span.text-content {
 #mySoft p {
   display:none;
 }
+
+.comp-p {
+  float:right;
+  width:80% !important;
+  font-size:.8em !important;
+  margin-top:5%;
+}
+
+.newh1 {
+  font-size: 1.2em !important;
+}
+
+
+
 
 
 }
